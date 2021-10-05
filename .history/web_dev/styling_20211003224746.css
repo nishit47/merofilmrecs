@@ -1,0 +1,18 @@
+body{
+    background-color: rgb(153, 153, 153);
+    color: white;
+}
+
+nav ul{
+    background-color: tomato;
+    display: flex
+}
+nav ul li{
+    background-color: rgb(87, 87, 87);
+    margin: 0 25px;
+    list-style-type: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}

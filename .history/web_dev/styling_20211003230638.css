@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(70, 70, 70);
+    color: white;
+}
+
+nav ul{
+    background-color: rgb(46, 45, 45);
+    display: flex;
+    height: 37px;
+    border-radius: 3px;
+}
+nav ul li{
+    background-color: rgb(110, 110, 110);
+    margin: 0 20px;
+    padding: 5px 20px;
+    list-style-type: none;
+    border-radius: 3px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul div{
+    padding: 5px 0px;
+    margin: 0.5px;
+}
+h1{
+    text-align: center;
+}
+.movie{
+    border:black;
+    border-radius: 20px;
+    background-color: chocolate;
+    margin: ;
+}
