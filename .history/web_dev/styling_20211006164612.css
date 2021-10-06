@@ -1,0 +1,74 @@
+body{
+    background-color: rgb(70, 70, 70);
+    color: white;
+}
+
+nav ul{
+    background-color: rgb(56, 56, 56);
+    display: flex;
+    border-radius: 3px;
+    flex-wrap: wrap;
+}
+nav ul li{
+    background-color: rgb(70, 70, 70);
+    margin: 5px 20px;
+    padding: 5px 20px;
+    list-style-type: none;
+    border-radius: 3px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li :hover{
+    color: yellow;
+}
+nav ul div{
+    padding: 5px 0px;
+    margin: 0.5px 30px;
+}
+h1{
+    text-align: center;
+}
+.movie, .movietiles{
+    border:black;
+    border-radius: 20px;
+    background-color: rgb(56, 56, 56);
+    margin: auto 10%;
+    padding: 20px;
+}
+
+.rating, .cast, .description, h2 ,.movieitem{
+    background-color: rgb(70, 70, 70);
+}
+.still, .trailer{
+    display: block;
+    max-width:100%;
+    max-height:100%;
+    margin: 0 auto;
+}
+#netflix, #nextmonth{
+    float: right;
+    margin-right: 25px;
+}
+#amazon, #previousmonth{
+    margin-left: 25px;
+}
+#expandedview{
+    justify-content: center;
+    margin: 0 auto;
+}
+.poster
+{
+    width: 200px;
+    height: 260px;
+    display: block;
+    margin: auto;
+}
+.movietiles :hover{
+    color: yellow;
+}
+button a{
+    text-decoration: none;
+    color: black;
+}

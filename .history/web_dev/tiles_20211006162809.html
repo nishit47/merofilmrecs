@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tiles</title>
+</head>
+<link rel="stylesheet" href="styling.css">
+<style>
+    .movietiles {
+        color: white;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 50px;
+    }
+
+    .movieitem {
+        width: 200px;
+        height: 300px;
+        margin: auto;
+        padding: 10px 3px;
+        text-align: center;
+        border-radius: 10px;
+        margin-top: 20px;
+    }
+</style>
+<header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="recsmonthoct2021.html">Recommendations of the month</a></li>
+            <li><a href="#">Movie Of The Day</a></li>
+            <li><a href="join.html">Join Our Film Club</a></li>
+            <li><a href="#">About me</a></li>
+            <div><input id="searchbox" type="text" name="search" placeholder="Search"></div>
+        </ul>
+    </nav>
+</header>
+<div>&nbsp;</div>
+<h1>Movie Recommendations | October 2021</h1>
+
+<body>
+    <div class="movietiles">
+        <div class="movieitem" id="thedeparted">The Departed <div>&nbsp;</div>
+            <img class="poster"
+                src="https://images-na.ssl-images-amazon.com/images/S/pv-target-images/185e67e0caace3f1bc7021328379cd8a66b09bf178607467b92695ee0aed2f19._RI_V_TTW_.jpg">
+        </div>
+        <div class="movieitem" id="thegodfather">The Godfather <div>&nbsp;</div>
+            <img class="poster"
+                src="https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg">
+        </div>
+        <div class="movieitem" id="cuckoo">One Flew Over The Cuckoo's Nest
+            <img class="poster"
+                src="https://product-image.juniqe-production.juniqe.com/media/catalog/product/seo-cache/x800/171/228/171-228-101P/One-Flew-over-the-Cuckoos-Nest-Retro-Movie-Poster-Vintage-Photography-Archive-Poster.jpg">
+        </div>
+        <div class="movieitem" id="americanhistoryx">American History X <div>&nbsp;</div>
+            <img class="poster" src="https://posterspy.com/wp-content/uploads/2020/03/history-x-3-1-1500x2121.jpg">
+        </div>
+        <div class="movieitem" id="fallenangels">Fallen Angels <div>&nbsp;</div>
+            <img src="https://m.media-amazon.com/images/M/MV5BMTc3NzI0MzQ3M15BMl5BanBnXkFtZTcwMzA0MDMzNA@@._V1_.jpg"
+                class="poster">
+        </div>
+        <div class="movieitem" id="revolutionaryroad">Revolutionary Road <div>&nbsp;</div>
+            <img class="poster" src="https://flxt.tmsimg.com/assets/p170921_p_v10_aq.jpg">
+        </div>
+        <div class="movieitem" id="sevenpsychopaths">Seven Psychopaths <div>&nbsp;</div>
+            <img class="poster" src="https://flxt.tmsimg.com/assets/p9248587_p_v13_ah.jpg">
+        </div>
+        <div class="movieitem" id="goodtime">Good Time <div>&nbsp;</div>
+            <img class="poster" src="https://m.media-amazon.com/images/I/71qiE6Kz1RL._SL1500_.jpg">
+        </div>
+        <div class="movieitem" id="gurgaon">Gurgaon <div>&nbsp;</div>
+            <img class="poster"
+                src="data:image/jpeg;base64,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">
+        </div>
+        <div class="movieitem" id="following">Following <div>&nbsp;</div>
+            <img class="poster"
+                src="https://cdn.cinematerial.com/p/297x/h66jgovm/following-italian-movie-cover-md.jpg?v=1456278348">
+        </div>
+    </div>
+    <div class="monthbar">
+        <button id="previousmonth"><a href="#">August 2021</a></button>
+        <select class="mode" id="expanded">
+            
+        </select>
+        <button id="nextmonth"><a href="#" target="blank">November 2021</a></button>
+    </div>
+</body>
+
+</html>
