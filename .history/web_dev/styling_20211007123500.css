@@ -2,6 +2,7 @@ body{
     background-color: rgb(70, 70, 70);
     color: white;
     font-family: 'Courier Prime', monospace;
+    font-size: 1.2em;
 }
 
 nav ul{
@@ -12,8 +13,8 @@ nav ul{
 }
 nav ul li{
     background-color: rgb(70, 70, 70);
-    margin: 8px 15px;
-    padding: 10px 20px;
+    margin: 5px 15px;
+    padding: 5px 20px;
     list-style-type: none;
     border-radius: 3px;
 }
@@ -26,7 +27,7 @@ nav ul li :hover{
 }
 nav ul div{
     padding: 5px 0px;
-    margin: 10px;
+    margin: 6px;
     float: right;
 }
 h1{

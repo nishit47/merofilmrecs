@@ -8,7 +8,13 @@ nav ul{
     background-color: rgb(56, 56, 56);
     display: flex;
     border-radius: 3px;
+    margin-top: 0%;
     flex-wrap: wrap;
+    position: fixed;
+    top: 0%;
+    width: vw;
+    margin-left: auto;
+    margin
 }
 nav ul li{
     background-color: rgb(70, 70, 70);
