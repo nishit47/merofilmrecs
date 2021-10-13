@@ -56,7 +56,13 @@ h1{
 #amazon, #previousmonth{
     margin-left: 25px;
 }
-.view{
+#tileview{
+    float: left;
+    position: sticky;
+    bottom: 20px;
+    left: 20px;
+}
+#expandedview{
     display: flex;
     justify-content: center;
 }
@@ -86,4 +92,19 @@ button a{
     justify-content: center;
     text-align: center;
 }
- 
+.topbutton{
+    position: sticky;
+    background-color: rgb(122, 122, 122);
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    float: right;
+    bottom: 20px;
+    right: 20px;
+    font-size: 2.5em;
+    line-height: 50px;
+ }
+ .topbutton a{
+     text-decoration: none;
+     color: white;
+ }
