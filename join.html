@@ -9,8 +9,9 @@
 </head>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styling.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
 
 <body>
     <style>
@@ -20,49 +21,44 @@
             background-size: cover;
         }
 
-        nav li {
-        
-        }
-
-        nav li a {
-            
-        }
-
-        nav ul {
-            background-color: rgba(15, 15, 15, 0.5);
-        }
-
-        #about, #joinform{
+        #about, #joinform {
             background-color: rgba(15, 15, 15, 0.5);
             color: white;
         }
 
-        h2{
+        h2 {
             background-color: rgba(15, 15, 15, 0.5);
         }
 
-        #joinlink{
+
+        #objectives li{
+            list-style: disc;
+            list-style-position: inside;
+        }
+        #joinlink {
             text-decoration: none;
             color: yellow;
         }
 
     </style>
-     <header>
+    <header>
         <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <label class="logo">MeroFilmRecs</label>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="recsmonthoct2021.html">Recommendations of the month</a></li>
                 <li><a href="movieoftheday.html">Movie Of The Day</a></li>
-                <li><a href="join.html">Join Our Film Club</a></li>
-                <li><a href="#">About me</a></li>
-                <div><input id="searchbox" type="text" name="search" placeholder="Search"></div>
+                <li><a href="recsmonthoct2021.html">Movies Of The Month</a></li>
+                <li><a class="active" href="#">Join</a></li>
+                <li><a href="#">Articles</a></li>
             </ul>
         </nav>
-    </header>
+    </header>>
     <div>&nbsp;</div>
     <div>
-
-    <body>
         <div id="about">
             <div>
                 <h2>About CiNepal</h2>
@@ -72,7 +68,7 @@
                 of making them.
             </div>
             <div>&nbsp;</div>
-            <div>Objectives:
+            <div id="objectives">Objectives:
                 <ul>
                     <li>Discuss and recommend movies</li>
                     <li>Provide a platform to critique, review and recommend movies</li>
@@ -88,12 +84,13 @@
         <div>&nbsp;</div>
         <div>&nbsp;</div>
         <div>&nbsp;</div>
-        <div id="joinform"><h2>Join The Club</h2>
-        <div>Click <a id="joinlink" href="https://forms.gle/m2Q9rnhsVzLwnTW88" target="blank">here</a> to join our club. We will get in touch with you soon.</div>
+        <div id="joinform">
+            <h2>Join The Club</h2>
+            <div>Click <a id="joinlink" href="https://forms.gle/m2Q9rnhsVzLwnTW88" target="blank">here</a> to join our
+                club. We will get in touch with you soon.</div>
         </div>
 
 
-
-    </body>
-    <div>&nbsp;</div>
-    <div>&nbsp;</div>
+</body>
+<div>&nbsp;</div>
+<div>&nbsp;</div>
