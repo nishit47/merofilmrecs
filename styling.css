@@ -111,7 +111,7 @@ body{
 h1{
     text-align: center;
 }
-.movie, .movietiles, .tvseries{
+.movie, .scene, .movietiles, .tvseries{
     border:black;
     border-radius: 20px;
     background-color: rgb(56, 56, 56);
