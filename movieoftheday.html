@@ -13,36 +13,58 @@
 <link rel="stylesheet" href="styling.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
 
-<body>
-    <style>
-        body {
-            background-image: url(https://d1nslcd7m2225b.cloudfront.net/Pictures/1024x536/7/7/8/1132778_Gangs_Of_Wasseypur.jpg);
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
+<style>
+    #about,
+    #joinform {
+        background-color: rgba(15, 15, 15, 0.5);
+        color: white;
+    }
 
-        nav li {
-        
-        }
+    h2 {
+        background-color: rgba(15, 15, 15, 0.1);
+        text-align: center;
+        margin-top: 30rem;
+    }
 
-        nav li a {
-            
-        }
+    nav {
+        background: rgb(56, 56, 56, 0);
+        height: 80px;
+        width: 100%;
+        list-style: none;
+    }
 
-        nav ul {
-            background-color: rgba(15, 15, 15, 0.5);
-        }
+    header::before {
+        content: "";
+        width: 100%;
+        height: 100%;
+        background: url(https://d17389e216ygm.cloudfront.net/wp-content/uploads/CE_FallenAngels-3.jpg) no-repeat center center/cover;
+        position: absolute;
+        z-index: -1;
+        top:0;
+        left:0;
+        opacity: 0.8;
+    }
 
-        #about, #joinform{
-            background-color: rgba(15, 15, 15, 0.5);
-            color: white;
-        }
+    a:hover,
+    a.active {
+        background:rgba(15, 15, 15, 0.1);
+        color: rgb(255, 196, 0);
+        font-weight: bolder;
+    }
 
-        h2{
-            background-color: rgba(15, 15, 15, 0.5);
+    @media (max-width: 858px) {
+
+        ul {
+            position: fixed;
+            width: 100%;
+            height: 100vh;
+            background: rgb(48, 48, 48, 0);
+            top: 80px;
+            left: -100%;
             text-align: center;
+            transition: all .5s;
         }
-        </style>
+</style>
 
 
 <body>
@@ -54,8 +76,8 @@
             </label>
             <label class="logo">MeroFilmRecs</label>
             <ul>
-                <li><a class="active" href="#">Home</a></li>
-                <li><a href="movieoftheday.html">Movie Of The Day</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="movieoftheday.html">Movie Of The Day</a></li>
                 <li><a href="recsmonthoct2021.html">Movies Of The Month</a></li>
                 <li><a href="join.html">Join</a></li>
                 <li><a href="#">Articles</a></li>
@@ -65,5 +87,7 @@
     <div>&nbsp;</div>
     <div>
         <h2>Sorry, this page is still under construction.</h2>
-    <div>&nbsp;</div>
-    <div>&nbsp;</div>
+        <div>&nbsp;</div>
+        <div>&nbsp;</div>
+    </div>
+</body>

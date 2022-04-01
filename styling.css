@@ -206,3 +206,32 @@ button a{
      text-decoration: none;
      color: white;
  }
+ .pagebox{
+   display: flex;
+   justify-content: center;
+   position: absolute;
+   bottom: 10px;
+   flex-wrap: wrap;
+   margin-left: 35px;
+ }
+
+ .page{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem;
+  border: 0.25rem solid rgb(248, 248, 248);
+  border-radius: 22px;
+  width: 20rem;
+  height:8rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.7);
+ }
+ .pagebox a{
+   text-decoration: none;
+   color: white;
+ }
